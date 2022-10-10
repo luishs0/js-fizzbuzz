@@ -1,0 +1,30 @@
+.itemstyle {
+    border: 1px solid black;
+    padding: .2rem;
+}
+
+body {
+    background-color: #083b4c;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+.col {
+    background-color: #1389b2;
+}
+
+.fizzBuzz {
+    background-color: #f0466f;
+}
+
+.Fizz {
+    background-color: #0ad6a1;
+}
+
+.Buzz {
+    background-color: #ffd166;
+}
