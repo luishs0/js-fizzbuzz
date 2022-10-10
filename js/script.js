@@ -2,16 +2,23 @@ let fizzBuzz = "";
 
 for (let i = 1; i < 101; i++) {
     
+    let number = i;
+
     if (i % 3 === 0 && i % 5 === 0) {
         fizzBuzz = "FizzBuzz";
+        number = fizzBuzz;
     } else if (i % 3 === 0) {
-        fizzBuzz = "Fizz;"
+        fizzBuzz = "Fizz";
+        number = fizzBuzz;
     } else if (i % 5 === 0) {
         fizzBuzz = "Buzz";
+        number = fizzBuzz;
     } else {
         fizzBuzz = "";
+        number = i;
     }
 
-    console.log(i, fizzBuzz);
+
+    console.log(number);
 
 }
