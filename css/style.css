@@ -1,7 +1,4 @@
-.itemstyle {
-    border: 1px solid black;
-    padding: .2rem;
-}
+
 
 body {
     background-color: #083b4c;
@@ -10,14 +7,40 @@ body {
 
 h1 {
     color: white;
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
-.col {
+span {
+    background-color: aqua;
+    display: inline-block;
+    min-height: 13vw;
+    min-width: 13vw;
+    line-height: 13vw;
+    
+}
+
+@media screen and (max-width: 440px) {
+    body {
+        font-size: .7rem;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    body {
+        font-size: .5rem;
+    }
+}
+
+
+.color {
     background-color: #1389b2;
 }
 
-.fizzBuzz {
+.FizzBuzz {
     background-color: #f0466f;
 }
 

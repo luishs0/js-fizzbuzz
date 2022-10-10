@@ -22,7 +22,7 @@ for (let i = 1; i < 101; i++) {
 
     console.log(number);
 
-    const item = `<div class="itemstyle col ${fizzBuzz}">${number}</div>`;
+    const item = `<div class="itemstyle col mb-4"><span class="color ${fizzBuzz}">${number}</span></div>`;
     row.innerHTML += item;
     
 }
